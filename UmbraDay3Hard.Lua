@@ -1,0 +1,261 @@
+-- [ Settings ] --
+getgenv().AutoMercenary = false
+getgenv().AutoGatling = true
+getgenv().AutoPickups = true
+-- [ End Settings ] --
+
+local TDS = loadstring(game:HttpGet("https://getaether.cc/UmbraDay3Hard.Lua"))()
+
+TDS:Loadout("Gatling Gun", "Scout", "None", "None", "None")
+TDS:Mode("Act3")
+TDS:GameInfo("Poor Recollection", {})
+
+TDS:Place("Scout", 1.0738897323608398, 103.71456909179688, 121.82080078125)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Place("Scout", -1.9449806213378906, 103.84392547607422, 122.17860412597656)
+TDS:Upgrade(2)
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 2 ] --
+TDS:Place("Scout", -4.892035484313965, 104.00244140625, 122.92456817626953)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 3 ] --
+TDS:Place("Scout", -0.12567901611328125, 104.02532958984375, 124.61412048339844)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 4 ] --
+TDS:Place("Scout", -2.9342727661132812, 104.22003173828125, 125.77748107910156)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 6 ] --
+TDS:VoteSkip(6, 25)
+
+-- [ Wave 7 ] --
+TDS:Place("Gatling Gun", -8.563924789428711, 103.19258880615234, 112.11267852783203)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(4)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(6)
+TDS:Place("Scout", 3.451972007751465, 103.48429107666016, 119.92704010009766)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Place("Scout", 0.6228866577148438, 103.43456268310547, 118.81443786621094)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Place("Scout", -2.3959836959838867, 103.56726837158203, 119.1722412109375)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Place("Scout", -5.343038558959961, 103.70734405517578, 119.91820526123047)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Place("Scout", 3.1196393966674805, 103.89384460449219, 124.06946563720703)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Place("Scout", -5.9672346115112305, 104.32351684570312, 125.98418426513672)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Place("Scout", -7.855631351470947, 104.24617767333984, 123.60184478759766)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(13)
+TDS:Place("Scout", -8.306632995605469, 103.97663116455078, 120.5954818725586)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Place("Scout", 5.521945953369141, 103.33649444580078, 117.70065307617188)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Place("Scout", 2.692862033843994, 103.25944519042969, 116.58805084228516)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Place("Scout", -0.2702341079711914, 103.17955780029297, 115.9085922241211)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Place("Scout", -3.289104461669922, 103.31330108642578, 116.26639556884766)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+
+-- [ Wave 20 ] --
+TDS:Place("Scout", -6.2361602783203125, 103.39044189453125, 117.01235961914062)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Place("Scout", -9.199755668640137, 103.76252746582031, 117.68963623046875)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Place("Scout", 6.57078742980957, 103.21283721923828, 114.86087036132812)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Place("Scout", 3.7463841438293457, 103.1498031616211, 113.73644256591797)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Place("Scout", -10.61401081085205, 103.6239013671875, 114.9986343383789)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+
+-- [ Wave 21 ] --
+TDS:Place("Scout", 3.4099135398864746, 104.18352508544922, 127.11990356445312)
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Place("Scout", 0.40914249420166016, 104.29750061035156, 127.60670471191406)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Place("Scout", -2.3994507789611816, 104.44770050048828, 128.7700653076172)
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+TDS:Place("Scout", -7.7819108963012695, 104.67977905273438, 128.65756225585938)
+TDS:Upgrade(27)
+TDS:Upgrade(27)
+TDS:Upgrade(27)
+TDS:Upgrade(27)
+TDS:Upgrade(6)
+TDS:Place("Scout", -9.506836891174316, 104.63380432128906, 126.1543197631836)
+TDS:Upgrade(28)
+TDS:Upgrade(28)
+TDS:Upgrade(28)
+TDS:Upgrade(28)
+TDS:Place("Scout", -10.891740798950195, 104.5249252319336, 123.4480972290039)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(29)
+TDS:Upgrade(29)
+TDS:Upgrade(29)
+TDS:Upgrade(29)
+TDS:Place("Scout", -11.37076187133789, 104.20033264160156, 119.8178939819336)
+TDS:Upgrade(30)
+TDS:Upgrade(30)
+TDS:Upgrade(30)
+TDS:Upgrade(30)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 24 ] --
+TDS:Place("Scout", -9.62105655670166, 104.82455444335938, 131.04299926757812)
+TDS:Upgrade(31)
+TDS:Upgrade(31)
+TDS:Upgrade(31)
+TDS:Upgrade(31)
+TDS:Place("Scout", -11.36998176574707, 104.78905487060547, 128.55645751953125)
+TDS:Upgrade(32)
+TDS:Upgrade(32)
+TDS:Upgrade(32)
+TDS:Upgrade(32)
+TDS:Place("Scout", -12.763747215270996, 104.06257629394531, 117.14837646484375)
+TDS:Upgrade(33)
+TDS:Upgrade(33)
+TDS:Upgrade(33)
+TDS:Upgrade(33)
+TDS:Place("Scout", -13.981853485107422, 104.61202239990234, 121.37474822998047)
+TDS:Upgrade(34)
+TDS:Upgrade(34)
+TDS:Upgrade(34)
+TDS:Upgrade(34)
+TDS:Place("Scout", -13.786982536315918, 104.83573150634766, 124.37501525878906)
+TDS:Upgrade(35)
+TDS:Upgrade(35)
+TDS:Upgrade(35)
+TDS:Upgrade(35)
+TDS:Place("Scout", -14.17723274230957, 104.90409088134766, 127.38986206054688)
+TDS:Upgrade(36)
+TDS:Upgrade(36)
+TDS:Upgrade(36)
+TDS:Upgrade(36)
+
+-- [ Wave 25 ] --
+TDS:Place("Scout", -4.85535192489624, 104.72530364990234, 134.35958862304688)
+TDS:Upgrade(37)
+TDS:Upgrade(37)
+TDS:Upgrade(37)
+TDS:Upgrade(37)
+TDS:Place("Scout", -1.815779685974121, 104.6020278930664, 134.4105987548828)
+TDS:Upgrade(38)
+TDS:Upgrade(38)
+TDS:Upgrade(38)
+TDS:Upgrade(38)
+TDS:Place("Scout", 1.1534318923950195, 104.43900299072266, 135.06280517578125)
+TDS:Upgrade(39)
+TDS:Upgrade(39)
+TDS:Upgrade(39)
+TDS:Upgrade(39)
+TDS:Place("Scout", 3.9620256423950195, 104.5146255493164, 133.89944458007812)
+TDS:Upgrade(40)
+TDS:Upgrade(40)
+TDS:Upgrade(40)
+TDS:Upgrade(40)
+TDS:VoteSkip(25)
